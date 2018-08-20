@@ -3,8 +3,8 @@
 @version        1.0.0
 @description    Trello Beautified theme for Stylish
 @namespace      http://www.w3.org/1999/xhtml
-@homepageURL    https://github.com/Sirpooya/
-@supportURL     https://github.com/Sirpooya/issues
+@homepageURL    https://github.com/sirpooya/Trello-Beautified
+@supportURL     https://github.com/sirpooya/Trello-Beautified/issues
 @author         Pooya Kamel
 @license        GPL
 ==/UserStyle== */
@@ -26,7 +26,7 @@ h2, .card-label {
 
 .attachment-thumbnail p {direction: ltr;}
 /* I use the Scrum for Trello extension in addition */
- 
+
 body .list-card-labels {
   float: right;
   top: 2px;
@@ -57,10 +57,10 @@ body .list-card-labels .card-label {
   vertical-align: middle;
   border-radius:10px;
 }
- 
- 
+
+
 /* display card id */
- 
+
 body .card-short-id.hide {
   position: absolute;
   top: 0;
@@ -100,18 +100,18 @@ body .badges .js-plugin-badges .badge .badge-text {
   font-family: interface;
   font-weight: normal;
 }
- 
+
 body .has-cover .card-short-id.hide {
   border-radius: 0 0 3px 0;
 }
- 
+
 body .list-card-title {
   margin:10px 0px;
 }
- 
- 
+
+
 /* bottom edit link */
- 
+
 body .list-card-operation {
   top: auto;
   right: -2px;
@@ -120,16 +120,16 @@ body .list-card-operation {
   border-radius: 3px;
   box-shadow: 1px 1px rgba(0,0,0,.3), -1px -1px white;
 }
- 
- 
+
+
 body .list-card:first-child {
   margin-top: 2px;
 }
- 
+
 
 
 /* display total cards count */
- 
+
 body .list-header-num-cards.hide {
   display: inline-block;
   font-size: 14px;
@@ -243,7 +243,7 @@ textarea.mod-list-name {padding:0px;margin:0px;}
 
 /* -----  small items in card  -----*/
 body .card-short-id.hide {
-    background:none; 
+    background:none;
     padding: 2px 0px 0px 5px;
     font-weight: normal;}
 
