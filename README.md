@@ -2,6 +2,8 @@
 Dark userstyle for Google Drive for Stylish https://userstyles.org/styles/162890/trello-beautified
 
 
+
+
 # Previewing changes
 
 To preview locally built themes, do the following:
@@ -12,6 +14,8 @@ To preview locally built themes, do the following:
    3. Opera: ` opera://extensions` -> "Allow access to file URLs" under Stylus
 2. Open the built file (`stylish.user.css`) in your browser (url: `file://path/to/stylish.user.css`). It should open a new Stylus tab.
 3. On this tab, tick the "Live Reload" option, and then "Install Style". Make sure to remove the style installed from userstyles.org so that Stylus will use the built one.
+
+
 
 
 # Todo
