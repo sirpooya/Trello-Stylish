@@ -1,7 +1,8 @@
-# Trello-Beautified
-Dark userstyle for Google Drive for Stylish https://userstyles.org/styles/162890/trello-beautified
+# Trello Beautified Theme
+Beautified userstyle for Trello for Stylish https://userstyles.org/styles/162890/trello-beautified
 
 
+![alt text](https://raw.githubusercontent.com/sirpooya/Trello-Beautified/master/Screenshot.png)
 
 
 # Previewing changes
