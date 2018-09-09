@@ -44,7 +44,7 @@
 
     /* board background */
     #board {
-        background: #fff !important;
+        background: rgb(0,0,0,.15) !important;
         padding-top: 20px;
         margin-bottom: 0px;
     }
@@ -71,17 +71,19 @@
     }
     .list-header-name {
         margin-left: 5px !important;
-        color: #737cf9 !important; /* list text color */
+        color: #fff !important; /* list text color */
         text-transform: uppercase !important; 
         font-size: 16px !important; 
         line-height: 18px !important;
         font-weight: bold !important;
         letter-spacing: 1px !important;    
         }
- .list-header-extras-menu{border-radius: 55px !important;}
+
+.list-header-extras .icon-lg {color:#fff;}
+.list-header-extras-menu{background: #ffffffaa; border-radius: 55px !important;}
 .list-header-extras-menu:hover {background: #ecf4f9;}
 
-.list-wrapper {border-right: 1px solid #ddd;margin:0;width:300px;}
+.list-wrapper {border-right: 1px solid #ffffff52;margin:0;width:300px;}
 .list-wrapper:last-child {border-right: none ;}
     /* "Add a list" link */
     .list-wrapper.mod-add {
@@ -146,6 +148,7 @@
 
     /* "Add a card" link*/
     .open-card-composer {
+        color:white;
         padding: 7px 0px 7px 16px;
         margin-left: 8px;
         margin-right: 8px;
