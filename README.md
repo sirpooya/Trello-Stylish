@@ -1,6 +1,6 @@
 # Trello Beautified Theme
 Beautified userstyle for Trello for Stylish https://userstyles.org/styles/162890/trello-beautified
- ![alt text](https://raw.githubusercontent.com/sirpooya/Trello-Beautified/master/Screenshot.png)
+ ![alt text](https://raw.githubusercontent.com/sirpooya/Trello-Beautified/master/TBScreenshot.png)
  # Previewing changes
  To preview locally built themes, do the following:
  1. Go to your browser extension settings and allow Stylus to view local files.
