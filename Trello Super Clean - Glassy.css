@@ -80,8 +80,8 @@
         }
 
 .list-header-extras .icon-lg {color:#fff;}
-.list-header-extras-menu{background: #ffffffaa; border-radius: 55px !important;}
-.list-header-extras-menu:hover {background: #ecf4f9;}
+.list-header-extras-menu {border-radius: 55px !important;}
+.list-header-extras-menu:hover {background: #ecf4f977;}
 
 .list-wrapper {border-right: 1px solid #ffffff52;margin:0;width:300px;}
 .list-wrapper:last-child {border-right: none ;}
