@@ -1,0 +1,20 @@
+Super Clean theme for Trello.
+You can use this theme for Card-Sorting and simple task-management & etc.
+You can use this Userstyles theme for Wikipedia with Stylish/Stylus extension in any browser.
+
+Source code <a href="https://github.com/sirpooya/Stylish">available on Github.</a>
+Please <a href="https://github.com/sirpooya/Stylish/issues">report issues here.</a> Or comment below.
+
+Check out the <a href="https://userstyles.org/styles/164018">Glassy Theme</a>.
+more info about me: <a href="http://pooya.ml">pooya.ml</a>
+
+/* ==UserStyle==
+@name           Trello Super Clean - White
+@version        1.0.0
+@description    Trello Super Clean White theme for Stylish
+@namespace      http://www.w3.org/1999/xhtml
+@homepageURL    https://github.com/sirpooya/Stylish
+@supportURL     https://github.com/sirpooya/Stylish/issues
+@author         Pooya Kamel
+@license        GPL
+==/UserStyle== */
