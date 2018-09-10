@@ -1,17 +1,17 @@
 /* ==UserStyle==
-@name           Trello Super Clean - White
+@name           Trello Clean - White
 @version        1.0.0
-@description    Trello Super Clean White theme for Stylish
+@description    Trello Clean White theme for Stylish
 @namespace      http://www.w3.org/1999/xhtml
-@homepageURL    https://github.com/sirpooya/Stylish
-@supportURL     https://github.com/sirpooya/Stylish/issues
+@homepageURL    https://github.com/sirpooya/Trello-Stylish
+@supportURL     https://github.com/sirpooya/Trello-Stylish/issues
 @author         Pooya Kamel
 @license        GPL
 ==/UserStyle== */
 
 @-moz-document domain("trello.com") {
 /* font size (cards etc) */
-    html, body, input, select, textarea {font-size: 15px !important;font-family:segoe ui medium;} /* instead of 14px */
+    html, body, input, select, textarea {font-size: 15px !important;font-family:segoe ui;} /* instead of 14px */
     body {}
 
     /**************** HEADER *****************/
@@ -75,11 +75,11 @@
         text-transform: uppercase !important; 
         font-size: 16px !important; 
         line-height: 18px !important;
-        font-weight: bold !important;
+        font-weight: 600 !important;
         letter-spacing: 1px !important;    
         }
-    .list-header-num-cards {color: #dcdcdc;}
- .list-header-extras-menu{border-radius: 55px !important;}
+.list-header-num-cards {color: #dcdcdc;display:initial;}
+.list-header-extras-menu{border-radius: 55px !important;}
 .list-header-extras-menu:hover {background: #ecf4f9;}
 
 .list-wrapper {border-right: 1px solid #ddd;margin:0;width:300px;}
