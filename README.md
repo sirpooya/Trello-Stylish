@@ -1,21 +1,30 @@
 # Trello themes for Stylish
 See all of my Stylish Themes Here : <https://userstyles.org/users/419686>
 
-####Trello Beautified Theme
+
+
+###Trello Beautified Theme
+
 <https://userstyles.org/styles/162890/>
  ![alt text](https://raw.githubusercontent.com/sirpooya/Trello-Stylish/master/TB.png)
 
 
+
 ###Trello Clean Glassy Theme
+
 <https://userstyles.org/styles/164018>
  ![alt text](https://raw.githubusercontent.com/sirpooya/Trello-Stylish/master/TCG.jpg)
 
 
+
 ###Trello Clean White Theme
+
 <https://userstyles.org/styles/164017>
  ![alt text](https://raw.githubusercontent.com/sirpooya/Trello-Stylish/master/TCW.jpg)
- 
- ___
+
+___
+
+
 ## Previewing changes
 To preview locally built themes, do the following:
 1. Go to your browser extension settings and allow Stylish / Stylus to view local files.
