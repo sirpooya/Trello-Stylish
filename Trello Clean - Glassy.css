@@ -78,12 +78,12 @@
         font-weight: 600 !important;
         letter-spacing: 1px !important;    
         }
-.list-header-num-cards {color: #dcdcdc;}
+.list-header-num-cards {color: #dcdcdc;display:none;}
 .list-header-extras .icon-lg {color:#fff;}
 .list-header-extras-menu {border-radius: 55px !important;}
 .list-header-extras-menu:hover {background: #ecf4f977;}
 
-.list-wrapper {border-right: 1px solid #ffffff52;margin:0;width:300px;}
+.list-wrapper {border-right: 1px solid #ffffff00;margin:0;width:300px;}
 .list-wrapper:last-child {border-right: none ;}
     /* "Add a list" link */
     .list-wrapper.mod-add {
