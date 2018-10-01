@@ -78,7 +78,7 @@
         font-weight: 600 !important;
         letter-spacing: 1px !important;    
         }
-.list-header-num-cards {color: #dcdcdc;display:none;}
+.list-header-num-cards {color: #dcdcdc;display:none !important;}
 .list-header-extras .icon-lg {color:#fff;}
 .list-header-extras-menu {border-radius: 55px !important;}
 .list-header-extras-menu:hover {background: #ecf4f977;}
