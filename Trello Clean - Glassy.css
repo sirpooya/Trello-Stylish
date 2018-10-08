@@ -78,29 +78,32 @@
         font-weight: 600 !important;
         letter-spacing: 1px !important;    
         }
-.list-header-num-cards {color: #dcdcdc;}
+.list-header-num-cards {color: #dcdcdc; display:none !important; }
 .list-header-extras .icon-lg {color:#fff;}
 .list-header-extras-menu {border-radius: 55px !important;}
 .list-header-extras-menu:hover {background: #ecf4f977;}
 
-.list-wrapper {border-right: 1px solid #ffffff52;margin:0;width:300px;}
+.list-wrapper {margin:0;width:300px;}
 .list-wrapper:last-child {border-right: none ;}
-    /* "Add a list" link */
+ /* "Add a list" link */
     .list-wrapper.mod-add {
-        border-radius: 0;
+        transition: none;
+        /* transition: background 50ms ease-in-out; */
     }
     .list-wrapper.mod-add.is-idle {
-        width: 160px;
-        border-radius: 3px;
+        width: 160px !important;
+        margin-left:10px;
+        background-color : rgba(0,0,0,.12);
     }
     .list.add-list.idle {
         background: none !important;
         box-shadow: none !important; 
     }
+    
     .list-wrapper.mod-add.is-idle form {
     }
     .list-wrapper.mod-add.is-idle:hover {
-        background: #eee;
+        /* background: #eee; */
     }
     .list-wrapper.mod-add.is-idle .placeholder {
         text-transform: uppercase !important;
@@ -157,10 +160,12 @@
         border-radius: 0;
         }
     .open-card-composer:hover {
-        background: #eee !important; 
-        color: #111 !important;
+        color:white;
+        border-radius:3px;
+        background: rgba(0, 0, 0, 0.103) !important;
         text-decoration: none !important;
         }
+        .open-card-composer:hover .icon-add {color:white;}
 
 .card-label.mod-card-front {border-radius:5px;min-width:unset !important;}
 
