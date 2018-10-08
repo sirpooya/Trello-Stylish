@@ -90,8 +90,8 @@
         border-radius: 0;
     }
     .list-wrapper.mod-add.is-idle {
-        width: 110px;
-        background: white;
+        width: 160px;
+        border-radius: 3px;
     }
     .list.add-list.idle {
         background: none !important;
@@ -106,7 +106,7 @@
         text-transform: uppercase !important;
         font-size: 11px !important;
         letter-spacing: 1px;
-        color: #8c8c8c;
+        color: white;
         /*display: inline-block;*/
     }
 	
