@@ -50,7 +50,7 @@
     }
 
 /* --------- scroolbar -----------*/
-.list .u-fancy-scrollbar::-webkit-scrollbar{height:10px;width:3px;display:none;}
+.list .u-fancy-scrollbar::-webkit-scrollbar{height:10px;width:3px; display:none !important;}
 .u-fancy-scrollbar::-webkit-scrollbar-track-piece {background: #fff;}
 .u-fancy-scrollbar::-webkit-scrollbar-thumb:vertical{background:#ddd;border-radius:2px;height:10px;}
     /**************** LISTS, CARDS *****************/
