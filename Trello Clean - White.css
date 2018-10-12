@@ -86,26 +86,29 @@
 .list-wrapper:last-child {border-right: none ;}
     /* "Add a list" link */
     .list-wrapper.mod-add {
-        border-radius: 0;
+        transition: none;
+        /* transition: background 50ms ease-in-out; */
     }
     .list-wrapper.mod-add.is-idle {
-        width: 110px;
-        background: white;
+        width: 160px;
+        margin-left:10px;
+        background-color : rgba(0,0,0,.12);
     }
     .list.add-list.idle {
         background: none !important;
         box-shadow: none !important; 
     }
+    
     .list-wrapper.mod-add.is-idle form {
     }
     .list-wrapper.mod-add.is-idle:hover {
-        background: #eee;
+        /* background: #eee; */
     }
     .list-wrapper.mod-add.is-idle .placeholder {
         text-transform: uppercase !important;
         font-size: 11px !important;
         letter-spacing: 1px;
-        color: #8c8c8c;
+        color: white;
         /*display: inline-block;*/
     }
 	

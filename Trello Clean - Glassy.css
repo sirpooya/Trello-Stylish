@@ -78,11 +78,15 @@
         font-weight: 600 !important;
         letter-spacing: 1px !important;    
         }
+<<<<<<< HEAD
 .list-header-num-cards {color: #dcdcdc;display:none !important;}
+=======
+>>>>>>> 1449b4250f15eb5ff09c09d14e03b67c1013b603
 .list-header-extras .icon-lg {color:#fff;}
 .list-header-extras-menu {border-radius: 55px !important;}
 .list-header-extras-menu:hover {background: #ecf4f977;}
 
+<<<<<<< HEAD
 .list-wrapper {border-right: 1px solid #ffffff00;margin:0;width:300px;}
 .list-wrapper:last-child {border-right: none ;}
     /* "Add a list" link */
@@ -107,6 +111,7 @@
         font-size: 11px !important;
         letter-spacing: 1px;
         color: #8c8c8c;
+        color: white;
         /*display: inline-block;*/
     }
 	
