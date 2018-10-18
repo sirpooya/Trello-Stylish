@@ -148,6 +148,11 @@
         border-radius: 0;
     }
 
+    
+    /* that eye icon*/
+    .is-icon-only {display:none;}
+
+
     /* "Add a card" link*/
     .open-card-composer {
         padding: 7px 0px 7px 16px;
@@ -160,6 +165,7 @@
     .open-card-composer:hover {
         background: #eee !important; 
         color: #111 !important;
+        border-radius: 20px;
         text-decoration: none !important;
         }
 
