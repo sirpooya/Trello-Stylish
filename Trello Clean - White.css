@@ -124,7 +124,15 @@
         margin-bottom: 10px;
         box-shadow:none;
 		background-color:#ecf4f9;
-        }
+        background-color:#f0f0f0;
+    }
+
+
+span.js-badges > div[title="You are watching this card."] {display:none;}
+.list-header-num-cards.js-num-cards {display:none;}
+
+
+
     .list-card-quick-edit {
         padding: 0;
     }
