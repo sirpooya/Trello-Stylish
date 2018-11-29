@@ -8,7 +8,6 @@
 @author         Pooya Kamel
 @license        GPL
 ==/UserStyle== */
-
 @-moz-document domain("trello.com") {
     /* font size (cards etc) */
         html, body, input, select, textarea {font-size: 15px !important;font-family:segoe ui;} /* instead of 14px */
@@ -279,19 +278,6 @@
     .classic-body {background-color: blue !important;background-image:none !important;}
     
     
-    
-    .list-card {
-    
-    padding: 6px 8px 5px;
-    margin-bottom: 10px;
-    padding: 0px 8px 0px;
-    background-color: #fafaff !important;
-    border-radius:4px;
-    box-shadow: none;
-    border: 1px solid #e5e5e5 !important; 
-    box-shadow: 0px 1px 3px 0px #08145211 !important;
-    }
-    
     .list-card-details {padding:10px 8px 4px 8px;}
     
     /*
@@ -326,7 +312,32 @@
     
     }
     
-    @-moz-document url-prefix("https://trello.com/b/bUSEp1e7") {
+    @-moz-document domain("trello.com") {
+       
+    .list-card {
+         border-radius: 4px !important;
+         padding: 6px 8px 5px;
+         margin-bottom: 10px;
+         box-shadow:none;
+         background-color:#ecf4f9;
+         background-color:#f0f0f0;
+         border: solid #d4d4d4 1px !important;
+    }
+    }
+    
+    @-moz-document url-prefix("https://trello.com/b/bUSEp1e7/ui-ux") {
+    .list-card {
+    
+    padding: 6px 8px 5px;
+    margin-bottom: 10px;
+    padding: 0px 8px 0px;
+    background-color: #fafaff !important;
+    border-radius:4px;
+    box-shadow: none;
+    border: 1px solid #e5e5e5 !important; 
+    box-shadow: 0px 1px 3px 0px #08145211 !important;
+    }
+    
     
     
     .list-wrapper:nth-child(1) ,.list-wrapper:nth-child(4), .list-wrapper:nth-child(5) {opacity:.5;}
@@ -339,4 +350,20 @@
     
     
     .list-wrapper:nth-child(5) .list-card-title {text-decoration:line-through;}
+    
+    .calendar-week .calendar-day {background: #f4f4f4; }
+    .calendar-week .calendar-day.today {
+        background-color: #d1ffc9;
+    }
+    }
+    
+    @-moz-document url-prefix("https://trello.com/b/d8CSYbnU/tasks") {
+    .list-wrapper:nth-child(3) .list-header-num-cards.js-num-cards {background-color:#ec6d1f;}
+    .list-wrapper:nth-child(4) .list-header-num-cards.js-num-cards {background-color:#ffdb00;}
+    .list-wrapper:nth-child(5) .list-header-num-cards.js-num-cards {background-color:#1fec3b;}
+    
+    .list-card {border: none !important;}
+    .list-wrapper {width:200px;}
+    .list-wrapper .list-header-num-cards.js-num-cards {display:none;}
+    .list-header-name.mod-list-name.js-list-name-input {height:62px !important;}
     }
